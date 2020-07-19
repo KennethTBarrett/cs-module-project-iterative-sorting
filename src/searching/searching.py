@@ -6,7 +6,7 @@ def linear_search(arr, target):
         if arr[i] == target:
             return i
     return -1  # Not found.
-
+# Constant - O(n)
 
 # Write an iterative implementation of Binary Search
 
@@ -33,3 +33,4 @@ def binary_search(arr, target):
             return middle  # Return the middle, because we've found it!
 
     return -1  # Not found.
+# Logarithmic - O(log n)
