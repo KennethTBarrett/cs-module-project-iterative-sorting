@@ -10,10 +10,10 @@ def selection_sort(arr):
             # Check if the current smallest is still the smallest.
             if arr[smallest_index] > arr[index]:  # If so...
                 smallest_index = index  # Update the smallest index.
-        # TO-DO: Swap the values around.
+        #Swap the values around.
         arr[i], arr[smallest_index] = arr[smallest_index], arr[i]
     return arr
-# Quadratic runtime.
+# Quadratic runtime. - O(n^2)
 
 
 # TO-DO:  implement the Bubble Sort function below
@@ -27,7 +27,7 @@ def bubble_sort(arr):
                 arr[index], arr[index+1] = arr[index+1], arr[index]
     return arr
 
-# Quadratic runtime.
+# Quadratic runtime. - O(n^2)
 
 '''
 STRETCH: implement the Counting Sort function below
